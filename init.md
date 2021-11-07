@@ -22,7 +22,12 @@ git add -A #add all files
 git add <file>  #add single files
 ````
 commit changes and add message
+
 ````bash
 git commit -am "message" #shotcut for add and commit
 git commit -m  "message"
+````
+git status #check status
+````bash
+git status #check status
 ````
