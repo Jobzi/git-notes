@@ -5,3 +5,4 @@
 - checkout
 - stash
 - rebase
+- reset
