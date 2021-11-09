@@ -3,7 +3,16 @@ interactively your last 3 commits
 ````bash
 git rebase -i HEAD~3
 ````
-
+example of rebase with a specific commit
+````vim
+pick 2c08ac6 add readme
+pick 5890e92 readme add rebase
+````
+apply changes
+````vim
+pick 2c08ac6 add readme
+f 5890e92 readme add rebase    #"rebase the commit '2c08ac6' y se mantiene el commit '5890e92'"
+````
 ````
 # Commands:
 # p, pick <commit> = use commit
