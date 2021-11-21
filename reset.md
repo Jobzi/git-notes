@@ -1,4 +1,6 @@
 # RESET
+this is correct
+[]: # Path: reset.md
 
 ````bash
 git reset HEAD~1
